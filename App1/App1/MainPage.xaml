@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:controls="clr-namespace:App1"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <!--Loading label should not render by default.-->
+        <!--<Label x:Name="labelLoading" Text="Loading..." IsVisible="false" />-->
+
+       
+
+        <!--<ff:CachedImage x:Name="labelLoading"
+                               VerticalOptions="FillAndExpand"
+                               HorizontalOptions="FillAndExpand" 
+                        Source="APP2.gif" />-->
+
+        <!--<Label x:Name="textLabel"/>-->
+        <StackLayout x:Name="stack" VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="CenterAndExpand" >
+            <ActivityIndicator x:Name="labelLoading"
+                              
+                               Color="Orange"/>
+            <Label x:Name="labelLoadingText" Text="Loading..." IsVisible="false" TextColor="Orange"/>
+
+        </StackLayout>
+        <controls:CustomWebView x:Name="webPage" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" 
+                 Navigated="webviewNavigated" Navigating="webviewNavigating"/>
+
+        <!--<WebView x:Name="webPage" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" 
+                 Navigated="webviewNavigated" Navigating="webviewNavigating"/>-->
+    </StackLayout>
+
+</ContentPage>

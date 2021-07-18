@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "266342001895",
+    "project_id": "shaml-b595b",
+    "storage_bucket": "shaml-b595b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266342001895:android:ad4b7517e1fc4965a58642",
+        "android_client_info": {
+          "package_name": "com.Shaml.ShamlApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266342001895-b2knr0pej77kqgssv4bd8qgtnq8il7vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5-5YF0p4qi4C5m3KmmgeCkPoAmSg3Rw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266342001895-b2knr0pej77kqgssv4bd8qgtnq8il7vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="my_name">Shaaml</string>
+	<string name="taskadd">Add Task</string>
+	<string name="taskname">Name</string>
+	<string name="tasknotes">Notes</string>
+	<string name="taskdone">Done</string>
+	<string name="taskcancel">Cancel</string>
+	<string name="tasksave">Save</string>
+	<string name="taskdelete">Delete</string>
+
+
+</resources>
